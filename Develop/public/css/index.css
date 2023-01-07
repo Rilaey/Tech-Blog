@@ -7,8 +7,8 @@ header {
     padding-bottom: 60px;
 }
 
-.nav-bar {
-    
+main, body {
+    background-color: lightgray;
 }
 
 .nav-links {
@@ -32,3 +32,35 @@ span {
     color: burlywood;
 }
 
+.card-whole {
+    border: 5px solid black;
+    width: 75%;
+    margin: 25px auto;
+}
+
+.card-head {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-bottom: 5px solid black;
+    padding: 20px;
+    background-color: burlywood;
+}
+
+.author {
+    font-size: 24px;
+}
+
+.card-message {
+    font-size: 18px;
+    padding: 15px;
+    border: 5px solid black;
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+/* login form */
+form {
+    width: 50%;
+    margin: 50px auto;
+}
